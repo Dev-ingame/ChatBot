@@ -1,0 +1,19 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.23",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7"
+  }
+}

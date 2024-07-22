@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chatbot</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="chat-container">
+            <div id="chatbox" class="chatbox"></div>
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Type your message here..."
+            />
+            <button onclick="sendMessage()">Send</button>
+            <button onclick="Retrain()">ReTrain</button>
+
+            <!-- Feedback Form (Initially Hidden) -->
+            <div class="feedback-form" id="feedback-form">
+                <h3>Feedback</h3>
+                <p id="feedback-prompt">Was the response correct?</p>
+                <input
+                    type="text"
+                    id="correct-response"
+                    placeholder="Type the correct response..."
+                />
+                <button onclick="submitFeedback()">Submit Feedback</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
